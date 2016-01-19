@@ -1,15 +1,141 @@
-<h1>Welcome to the FIX Trading Community GitHub Site</h1>
-<p>
-This site is supported by the <a href="http://www.fixtradingcommunity.org">FIX Trading Community</a>. The purpose for this site is the development of open technical standards and supporting open source reference implementations of these technical standards. Our belief is that quality technical standards are best developed in an environment where competent people can contribute if they are so motivated in as unimpeded way as possible, while protecting an orderly standards development process.
-</p>
-<h1>Projects</h1>
-<p>There are several projects ongoing at this time.</p>
-<ul>
-<li>FIXwiki created by John Cameron</li>
-<li>Simple Binary Encoding</li>
-<li>FIXP - the FIX Performance Session Layer</li>
-<li>Simple Open Framing Header</li>
-<li>FIXML 1.2</li>
-<li>FIX Orchestra</li></ul>
-<h1>Status</h1>
-<p>This page is currently under construction. All suggestions and recommendations appreciated and needed.</p>
+<!DOCTYPE html>
+<html>
+<head>
+<title>FIX Trading Community GitHub Site</title>
+</head>
+
+<body>
+	<header>
+		<h1>Welcome to the FIX Trading Community GitHub Site</h1>
+	</header>
+
+	<p>
+		This site is supported by the <a
+			href="http://www.fixtradingcommunity.org">FIX Trading Community</a>.
+		The purpose for this site is the development of open technical
+		standards and supporting open source reference implementations of
+		these technical standards. Our belief is that quality technical
+		standards are best developed in an environment where competent people
+		can contribute if they are so motivated in as unimpeded way as
+		possible, while protecting an orderly standards development process.
+	</p>
+
+	<h1>Protocol Projects</h1>
+
+	<h2>Simple Binary Encoding specification</h2>
+	<h3>A FIX standard for binary message encoding</h3>
+	<p>FIX Simple Binary Encoding (SBE) targets high performance
+		trading systems, but may be suitable for other high performance
+		applications as well. It is optimized for low latency of encoding and
+		decoding while keeping bandwidth utilization reasonably small. This
+		encoding specification describes the wire protocol for messages
+		(presentation layer). Thus, it provides a standard for
+		interoperability between communicating parties. Users are free to
+		implement the standard in a way that best suits their needs. The
+		encoding standard is complimentary to other FIX standards for session
+		protocol and application level behavior. SBE is intended to represent
+		all FIX semantics.</p>
+	<small>
+		<p>
+			<b>OSI model:</b> presentation layer (layer 6)
+		</p>
+		<p>
+			<b>Current status:</b> Release Candidate 4 is being prepared for
+			review
+		</p>
+		<p>
+			<b>Working group:</b> High Performance Working Group
+		</p> <a href="http://fixprotocol.io/fix-simple-binary-encoding/"
+		class="button">View project page</a> &#8226; <a
+		href="https://github.com/FIXTradingCommunity/fix-simple-binary-encoding"
+		class="button">View specifications</a>
+	</small>
+
+	<h2>Simple Open Framing Header</h2>
+	<h3>Delimits messages on the wire</h3>
+	<p>This project contains specifications for FIX Simple Open Framing
+		Header (SOFH).</p>
+	<small>
+		<p>
+			<b>OSI model:</b> presentation layer (layer 6)
+		</p>
+		<p>
+			<b>Current status:</b> Release Candidate 1
+		</p>
+		<p>
+			<b>Working group:</b> High Performance Working Group
+		</p> <a
+		href="https://github.com/FIXTradingCommunity/fix-simple-open-framing-header"
+		class="button">View specifications</a>
+	</small>
+
+	<h2>FIXML 1.2</h2>
+	<h3>The FIXML standard for encoding FIX messages in XML.</h3>
+	<small>
+		<p>
+			<b>OSI model:</b> presentation layer (layer 6)
+		</p> <a href="https://github.com/FIXTradingCommunity/FIXML" class="button">View
+			specifications</a>
+	</small>
+	<h2>FIXP - the FIX Performance Session Layer specification</h2>
+	<h3>A FIX standard for high performance message exchange</h3>
+	<p>FIX Performance Session Layer (FIXP) is a lightweight protocol
+		designed to replace the traditional FIX session protocol (known
+		officially as FIXT) for high performance use cases. It supports both
+		point-to-point exchange of application messages as well as multicasts
+		for market data and the like.</p>
+	<small>
+		<p>
+			<b>OSI model:</b> session layer (layer 5)
+		</p>
+		<p>
+			<b>Current status:</b> Release Candidate 2
+		</p>
+		<p>
+			<b>Working group:</b> High Performance Working Group
+		</p> <a href="http://fixprotocol.io/fixp-specification/" class="button">View
+			project page</a> &#8226; <a
+		href="https://github.com/FIXTradingCommunity/fixp-specification"
+		class="button">View specifications</a>
+	</small>
+
+	<h2>silverflash - reference implementation for FIXP</h2>
+	<h3>A FIX engine for high performance protocols</h3>
+	<p>This project is a reference implementation of FIXP Performance
+		Session Layer. It is intended to aid developers of financial and other
+		critical applications. Since the protocol stack is standardized, it
+		serves to exchange messages between organizations while keeping low
+		latency characteristics.</p>
+	<small> <a
+		href="https://github.com/FIXTradingCommunity/silverflash/wiki"
+		class="button">View project page</a> &#8226; <a
+		href="https://github.com/FIXTradingCommunity/silverflash"
+		class="button">View code</a>
+	</small>
+
+	<h1>Reference Projects</h1>
+	<h2>FIXwiki</h2>
+	<h3>Code used to generate the FIXwiki web site</h3>
+	<p>FIXwiki was created by John Cameron of Cameron Edge and donated
+		to FIX Protocol Ltd. for the benefit of the FIX community.</p>
+	<small> <a
+		href="https://github.com/FIXTradingCommunity/FIXwiki" class="button">View
+			code</a>
+	</small>
+
+	<h2>FIX Repository</h2>
+	<h3>The XML schema (XSD) for FIX Repository, the metadata model
+		for FIX specifications.</h3>
+	<p>Repository is used to generate FIXimate3.0, FIXML Schema and
+		Microsoft Word specification documents</p>
+	<small> <a
+		href="https://github.com/FIXTradingCommunity/fix-repository" class="button">View
+			code</a>
+	</small>
+
+	<h2>Projects under development</h2>
+	<ul>
+		<li><b>FIX Orchestra:</b> machine readable rules of engagement</li>
+	</ul>
+</body>
+</html>
