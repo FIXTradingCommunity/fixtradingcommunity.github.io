@@ -1,50 +1,206 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html class="splitter-invoked">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>fixprotocol.io by FIXTradingCommunity</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<title>fixprotocol.io</title>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<link rel="stylesheet" type="text/css" href="css/syntax.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/modern-business.css">
+<link rel="stylesheet" type="text/css" href="css/lavish-bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/customstyles.css">
+<link rel="stylesheet" type="text/css" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="../js/jquery.navgoco.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="../js/toc.js"></script>
+<script src="../js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<style>
+.github-repo-button {background-color:#3572b0; color:#fff; margin:5px 0 0 10px; padding:4px 10px; border-radius:3px;}
+.github-repo-button a:hover {background-color:#2f659c;}  
+</style>
+
+<script>
+  $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
   </head>
-  <body>
-    <div class="wrapper">
-      <header class="without-description">
-        <h1>fixprotocol.io</h1>
-        <p></p>
-      </header>
-      <section>
-        <h3>
-<h3>Welcome to the FIX Trading Community  on GitHub</h3>
-<p>
-This site is supported by the <a href="http://www.fixtradingcommunity.org">FIX Trading Community</a>. The purpose for this site is the development of open technical standards and supporting open source reference implementations of these technical standards. Our belief is that quality technical standards are best developed in an environment where competent people can contribute if they are so motivated in as unimpeded way as possible, while protecting an orderly standards development process.
-</p>
-<h1>Projects</h1>
-<p>There are several projects ongoing at this time.</p>
-<ul>
-<li><a href="https://github.com/FIXTradingCommunity/FIXwiki">FIXwiki created by John Cameron</a></li>
-<li>Simple Binary Encoding</li>
-<li>FIXP - the FIX Performance Session Layer</li>
-<li>Simple Open Framing Header</li>
-<li>FIXML 1.2</li>
-<li>FIX Orchestra</li></ul>
-<h1>Status</h1>
-<p>This page is currently under construction. All suggestions and recommendations appreciated and needed.</p>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+<body>
+
+<div id="full-height-container">
+  <div id="header-precursor"></div>
+
+<header id="header" role="banner" style="height:40px;">
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container topnavlinks" style="margin:0; padding:0px 10px; max-width:100%; height:41px; border-bottom:1px solid #2e3d54;">
+		
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		
+            <ul class="nav navbar-nav navbar-right" style="float:left!important;">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding:13px 23px 13px 10px; margin:0px; background-color:transparent;"><i class="fa  fa-bars"></i></a>
+                    <ul class="dropdown-menu">
+						<li class="active"><a href="http://fixprotocol.io/fix-simple-binary-encoding/" target="_blank">fixprotocol.io</a></li>
+                        <li><a href="http://fixprotocol.io/fix-simple-binary-encoding/" target="_blank">Simple Binary Encoding</a></li>
+                        <li><a href="http://stackoverflow.com/questions/tagged/jekyll" target="_blank">FIXP</a></li>
+						<li><a href="http://stackoverflow.com/questions/tagged/jekyll" target="_blank">FIXML</a></li>
+                    </ul>
+                </li>
+			</ul>
+			
+			<h1 style="margin-top:3px;padding:0;float:left;margin-left:-6px;">
+				<a href="/" style="padding:5px"><img src="images/fix-white.png" alt="FIX Protocol Standards" height="24px" style="padding:0px 8px"></a>
+			</h1>
+
+            <ul class="nav navbar-nav">
+                <li><a href="https://github.com/FIXTradingCommunity/fixtradingcommunity.github.io" target="_blank" class="github-repo-button" style="background-color:#3572b0; font-weight:bold; color:#fff; margin:5px 0 0 10px; padding:4px 10px; border-radius:3px;">Github Repo</a></li>
+			</ul>
+				
+            <ul class="nav navbar-nav navbar-right" style="margin-right:0;">
+                <!--uncomment this block if you want simple search instead of algolia-->
+                <li>
+                     <!--start search
+                    <div id="search-demo-container">
+                        <i class="icon-search"></i>
+						<input type="text" id="search-input">
+                        <ul id="results-container"></ul>
+                    </div> -->
+					
+                    <script src="../js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        SimpleJekyllSearch.init({
+                            searchInput: document.getElementById('search-input'),
+                            resultsContainer: document.getElementById('results-container'),
+                            dataSource: '../search.json',
+                            searchResultTemplate: '<li><a href="{url}" title="Introduction">{title}</a></li>',
+                        noResultsText: 'No results found.',
+                                limit: 10,
+                                fuzzy: true,
+                        })
+                    </script>
+                     <!--end search-->
+                </li>
+			</ul>
+           
+        </div>
     
-  </body>
+	</div>
+
+</nav>
+
+<br class="clear">
+
+</header>
+
+
+<div id="splitter" style="position: relative; height:100%; overflow:hidden;">
+
+    <div id="splitter-sidebar" style="position: absolute; left: 0px; width: 300px; height:100%; overflow:hidden;">
+
+        <h3>FIX Links</h3>
+			<a href="http://confluence.technical-fixprotocol.org:8090/display/FPL/FIX+Protocol+Standards+Home"><i class="fa  fa-home"></i><span class="side-nav-link" style="padding-top:10px;">FIX Standards on Confluence</span></a><br>
+				<!-- <ul>
+					<li>Specifications</li>				
+					<li>Guidelines</li>
+					<li>Technical Standards</li>
+				</ul> -->
+			<a href="http://www.fixtradingcommunity.org/" target="blank"><i class="fa  fa-mail-forward"></i><span class="side-nav-link">FIX Home</span></a><br>
+			<a href="http://fixwiki.org/fixwiki/FIXwiki" class="side-nav-link" target="blank"><i class="fa  fa-mail-forward"></i><span class="side-nav-link">FIXwiki</span></a><br>
+			<a href="http://www.fixtradingcommunity.org/FIXimate/FIXimate3.0/" class="side-nav-link" target="blank"><i class="fa  fa-mail-forward"></i><span class="side-nav-link">FIXimate</span></a><br>
+			<a href="http://fixprotocol.io" target="blank"><i class="fa  fa-github"></i><span class="side-nav-link">fixprotocol.io</span></a><br>
+    </div>
+	
+	<div class="vsplitbar" unselectable="on" style="z-index: 4; position: absolute; -webkit-user-select: none; cursor: ew-resize; left: 300px; height: 100%;">
+		<a href="javascript:void(0)" accesskey="L" tabindex="0" title="vsplitbar"></a>
+	</div>
+    
+	<div id="splitter-content" style="position: absolute; left: 305px; height:100%;">
+	
+		<div id="main">
+
+        <div id="main-content">
+		<p style="font-size:28px;">FIX Github Home</p>
+		
+        <h1 class="post-title-main">Welcome to the FIX Trading Community on GitHub</h1>            
+		
+        <h2>Overview</h2>
+		
+			<p>This site is supported by the FIX Trading Community. The purpose for this site is the development of open technical 
+			standards and supporting open source reference implementations of these technical standards. Our belief is that quality 
+			technical standards are best developed in an environment where competent people can contribute if they are so motivated 
+			in as unimpeded way as possible, while protecting an orderly standards development process.</p>
+			
+			
+		<h2>Projects</h2>
+
+			<p>There are several projects ongoing at this time.</p>
+
+				<ul>
+					<li>FIXwiki created by John Cameron</li>
+					<li>Simple Binary Encoding</li>
+					<li>FIXP - the FIX Performance Session Layer</li>
+					<li>Simple Open Framing Header</li>
+					<li>FIXML 1.2</li>
+					<li>FIX Orchestra</li>
+				</ul>
+
+				
+		<h2>Status</h2>
+
+			<p>This page is currently under construction. All suggestions and recommendations appreciated and needed.</p>
+
+
+		</div>
+
+		</div>
+
+	
+	</div>
+  	 
+ 
+  
+  
+</div>
+
+	<!-- <div style="margin:0px; padding:0px; border-top:1px solid #ccc; clear:both; float:left; width:100%; display:block;">
+		<div class="row" style="padding:5px 10px; margin:0;">
+			<div class="col-lg-12 footer">
+				<p>&copy;2016 FIX Trading Company. All rights reserved.<p>
+				<p><img src="images/fix-company-logo.jpg" width="250px"/></p>
+			</div>
+		</div>
+	</div> -->
+	
+</div>
+
+
+	
+	
+</body>
+
+
 </html>
+
