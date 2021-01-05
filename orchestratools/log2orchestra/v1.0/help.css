@@ -2,6 +2,10 @@
   color: #666666;
 }
 
-.Help-container h2 {
+.Help-container h1 b, .Help-container h2 {
   color: #000000;
+}
+
+.Help-container h2 {
+  font-size: 22px;
 }
