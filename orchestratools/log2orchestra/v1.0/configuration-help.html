@@ -41,17 +41,17 @@
       type.
     </p>
     <p>
-      The <b>msgType</b> property is a FIX MsgType, e.g. "6" for an IOI
-      message.
+      The <b>msgType</b> property is a FIX MsgType(35), e.g. "6" for an
+      IOI(35=6) message.
     </p>
     <p>
       The <b>fieldIds</b> property is an array of field tags that
       distinguish scenarios for the associated msgType. Commonly, the array
       is a single field tag. For instance, IOITransType (28) distinguishes
-      scenarios for the IOI message (MsgType=6) in the sample. However,
+      scenarios for the IOI message(35=6) in the sample. However,
       scenarios may be distinguish by a combination of fields. In this
-      sample, ExecutionReport (MsgType=8) scenarios are distinguished by the
-      combination of ExecType (150) and OrdStatus (39) fields.
+      sample, ExecutionReport(35=8) scenarios are distinguished by the
+      combination of ExecType(150) and OrdStatus(39) fields.
     </p>
     <p>If a configuration file is not supplied to log2orchestra, then
       default keys are used.</p>
